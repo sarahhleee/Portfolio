@@ -1,0 +1,136 @@
+@media (max-width: 768px) {
+  /* Default CSS */
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 50px 15px;
+  }
+  /* Common CSS */
+  .headline-share h1 {
+    font-size: 30px;
+  }
+  .headline-share p {
+    padding: 0 20px;
+  }
+  /* welcome */
+  .welcome {
+    background: #f9f9f9;
+    height: 100vh;
+  }
+  .slideshow.slick {
+    display: none;
+  }
+  .welcome-heading {
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .welcome-heading h1 {
+    font-size: 40px;
+  }
+  .welcome-heading span {
+    font-size: 18px;
+  }
+  .welcome-heading p {
+    padding: 0 20px;
+  }
+
+  /* 웰컴 : Welcome - 마우스휠 mousewheele */
+  .mouse {
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* ceo-access */
+  .ceo-inner,
+  .access-inner {
+    width: 100%;
+  }
+  .ceo-content > div {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .ceo-left {
+    padding-right: 0;
+  }
+  .ceo-right > div {
+    float: none;
+    width: 100%;
+  }
+  .access-content > div {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .access-left {
+    padding-right: 0;
+    padding-top: 20px;
+  }
+  .access-left h2 {
+    font-size: 23px;
+  }
+  .access-right img  {
+    width: 100%;
+  }
+  .btn-download {
+    margin-bottom: 50px;
+  }
+  .btn-download img {
+    height: 50px;
+  }
+  /* banner */
+  .banner-inner {
+    width: 100%;
+  }
+  .banner-content > div {
+    float: none;
+    width: 100%;
+  }
+  .tab-btn {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .tab-btn label {
+    width: 27%;
+  }
+  .tab-btn label em {
+    width: 100px;
+    height: 100px;
+  } 
+  .tab {
+    padding: 20px;
+    text-align: center;
+  }
+  .tab h2 {
+    font-size: 24px;
+  }
+  
+  /* section : feature */
+  .feature-inner {
+    width: 100%;
+  }
+  .feature-content {
+    margin: 50px 0;
+  }
+  .feature-content > div {
+    float: none;
+    width: 100%;
+  }
+  .feature-mockup img{
+    width: 100%;
+  }
+  .feature-about {
+    padding: 0 10px;
+    padding-top: 80px;
+  }
+  .feature-about h2 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  /* Change Order with Flex */
+
+}
